@@ -45,8 +45,8 @@ std::unordered_set<std::string> blacklist;
 
 static void usage()
 {
-    printf("syntax : netfilter-test <host>\n");
-    printf("sample : netfilter-test test.gilgil.net\n");
+    printf("syntax : 1m-block <site list file>\n");
+    printf("sample : 1m-block top-1m.txt\n");
 }
 
 /* returns packet id */
